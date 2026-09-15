@@ -1,0 +1,96 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+/* =========================
+   DARK MODE
+========================= */
+
+body.dark-mode {
+  background: #111827;
+  color: #f9fafb;
+}
+
+body.dark-mode .profile-card,
+body.dark-mode .card,
+body.dark-mode .dashboard-card,
+body.dark-mode .project-card,
+body.dark-mode .task-card {
+  background: #1f2937;
+  color: #f9fafb;
+  border-color: #374151;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background: #1f2937;
+  color: #f9fafb;
+  border-color: #4b5563;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #9ca3af;
+}
+
+body.dark-mode input:disabled {
+  background: #374151;
+  color: #d1d5db;
+}
+
+body.dark-mode a {
+  color: #93c5fd;
+}
+
+body.dark-mode .notification-dropdown {
+  background: #1f2937;
+  border-color: #374151;
+  color: #f9fafb;
+}
+
+body.dark-mode .notification-header {
+  border-color: #374151;
+}
+
+body.dark-mode .notification-item {
+  border-color: #374151;
+  background: #1f2937;
+}
+
+body.dark-mode .notification-item.unread {
+  background: #1e3a5f;
+}
+
+body.dark-mode .notification-item:hover {
+  background: #374151;
+}
+
+body.dark-mode .no-notifications {
+  color: #d1d5db;
+}
+
+body.dark-mode .kanban-column {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+body.dark-mode .kanban-card {
+  background: #111827;
+  color: #f9fafb;
+  border-color: #374151;
+}
+
+body.dark-mode .kanban-empty {
+  color: #9ca3af;
+}
+
+body.dark-mode .profile-email,
+body.dark-mode .profile-info span {
+  color: #9ca3af;
+}
