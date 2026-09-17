@@ -6,7 +6,7 @@ The application allows users to create and manage projects, assign tasks, collab
 
 ## 🚀 Live Demo
 
-- Frontend: https://project-manager-bay-nine.vercel.app
+- Frontend: https://project-manager-one-amber.vercel.app/
 - Backend API: https://project-manager-2-45wb.onrender.com
 
 ## ✨ Features
